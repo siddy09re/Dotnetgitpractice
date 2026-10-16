@@ -6,6 +6,7 @@ namespace WebAppi.Models
     {
         public IActionResult Index()
         {
+            Console.WriteLine("Hey yooo");
             return View();
         }
     }
